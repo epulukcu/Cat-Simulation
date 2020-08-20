@@ -3,16 +3,6 @@ import java.util.Scanner;
 import java.util.Random;
 import java.io.FileNotFoundException;
 
-/**
- * @author Elif Pulukçu
- * @since April 2, 2019
- * Program Explanation: This program simulate a randomly moving cat in world. 
- * We get the data for this world from a txt file that consist of 0, 1, 2 and 3 numbers.
- * 0 means grass field and the cat can wander in this area, 1 means wall and the cat cannot exceed the boundaries created by the wall
- * 2 means water and cats usually don't like to go into the water
- * 3 means food and the cat prefers the direction in which direction has food. If there is no food above, below, right and left, it will go randomly.
- */
-
 public class Main {
 
 	public static void main(String[] args) {
